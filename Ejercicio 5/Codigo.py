@@ -1,5 +1,5 @@
 
-numero_niños = int(input("Escriba el numero de niños: "))
+numero_niños = int(input('Escriba el numero de niños: '))
 
 
 def descuento_parque_warner():
