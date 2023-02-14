@@ -1,0 +1,25 @@
+INICIO
+    definir función calcular_prima_anual(kilometros_recorridos, num_accidentes, antiguedad)
+        prima_distancia <- mínimo entre (kilometros_recorridos * 0.01, 400)
+        prima_antiguedad <- 0
+        SI antiguedad >= 4 ENTONCES
+            prima_antiguedad <- 200 + (antiguedad - 4) * 20
+        FIN SI
+        prima <- prima_distancia + prima_antiguedad
+        SI num_accidentes = 0 o (num_accidentes = 1 y prima >= 400) ENTONCES
+            devolver prima
+        FIN SI
+        SI num_accidentes = 1 ENTONCES
+            devolver prima / 2
+        FIN SI
+        SI num_accidentes = 2 ENTONCES
+            devolver prima / 3
+        FIN SI
+        SI num_accidentes = 3 ENTONCES
+            devolver prima / 4
+        FIN SI
+        DE LO CONTRARIO
+            devolver 0
+        FIN DE LO CONTRARIO
+    FIN FUNCIÓN
+FIN

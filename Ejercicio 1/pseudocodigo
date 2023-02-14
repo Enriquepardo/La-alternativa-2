@@ -1,0 +1,19 @@
+FUNCIÓN sucesor(día)
+    RESULTADO ← ""
+    SI día ES IGUAL A "lunes" ENTONCES
+        RESULTADO ← "martes"
+    SINO SI día ES IGUAL A "martes" ENTONCES
+        RESULTADO ← "miércoles"
+    SINO SI día ES IGUAL A "miércoles" ENTONCES
+        RESULTADO ← "jueves"
+    SINO SI día ES IGUAL A "jueves" ENTONCES
+        RESULTADO ← "viernes"
+    SINO SI día ES IGUAL A "viernes" ENTONCES
+        RESULTADO ← "sábado"
+    SINO SI día ES IGUAL A "sábado" ENTONCES
+        RESULTADO ← "domingo"
+    SINO SI día ES IGUAL A "domingo" ENTONCES
+        RESULTADO ← "lunes"
+    FIN SI
+    DEVOLVER RESULTADO
+FIN FUNCIÓN

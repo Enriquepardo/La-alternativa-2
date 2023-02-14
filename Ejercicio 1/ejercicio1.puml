@@ -1,0 +1,19 @@
+@startuml DiaSemana
+class DiaSemana {
+  -lunes
+  -martes
+  -miercoles
+  -jueves
+  -viernes
+  -sabado
+  -domingo
+  +sucesor(dia: DiaSemana): DiaSemana
+}
+
+class Sucesor {
+  +calcular(dia: DiaSemana): DiaSemana
+}
+
+DiaSemana <|-- Sucesor
+@enduml
+

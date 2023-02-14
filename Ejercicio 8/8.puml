@@ -1,0 +1,30 @@
+@startuml conductor
+class EmpleadoCamionero {
+  -nombre: string
+  -añosAntiguedad: int
+  -distanciaRecorrida: int
+  -numAccidentes: int
+  +calcularPrima(): float
+}
+
+class PrimaDistancia {
+  -empleado: EmpleadoCamionero
+  +calcularPrimaDistancia(): float
+}
+
+class PrimaAntiguedad {
+  -empleado: EmpleadoCamionero
+  +calcularPrimaAntiguedad(): float
+}
+
+class PrimaAnual {
+  -empleado: EmpleadoCamionero
+  -primaDistancia: PrimaDistancia
+  -primaAntiguedad: PrimaAntiguedad
+  +calcularPrimaAnual(): float
+}
+
+EmpleadoCamionero -> PrimaDistancia
+EmpleadoCamionero -> PrimaAntiguedad
+EmpleadoCamionero -> PrimaAnual
+@enduml
