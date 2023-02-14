@@ -1,0 +1,16 @@
+@startuml
+title Calculate Discount
+
+participant User
+participant System
+
+User -> System: Enter purchase amount
+System -> System: Read purchase amount
+System -> System: Check if purchase amount is within range
+System -> System: Calculate discount (5% or 8%)
+System -> System: Calculate total (purchase amount - discount)
+System -> User: Write total
+@enduml
+
+
+

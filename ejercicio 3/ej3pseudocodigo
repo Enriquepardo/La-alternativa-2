@@ -1,0 +1,10 @@
+INICIO
+    LEER purchase_amount
+    SI purchase_amount ES >= 100 Y purchase_amount <= 500
+        SET discount = purchase_amount * 5%
+    SINO
+        SET discount = purchase_amount * 8%
+    FIN SI
+    SET total = purchase_amount - discount
+    ESCRIBIR total
+FIN
