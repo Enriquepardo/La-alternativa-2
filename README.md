@@ -1,5 +1,5 @@
 # La-alternativa
-# link al repositorio: 
+# link al repositorio: https://github.com/Enriquepardo/La-alternativa-2.git
 #Encontrará propuestas de soluciones para los ejercicios 1, 2, 3 y 8 en los elementos para descargar disponibles desde la página Información.
 #Ejercicio 1: Sucesor de un DÍA de la semana
 
