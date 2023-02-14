@@ -1,2 +1,2 @@
 # La-alternativa
-# link al repositorio: 
+# link al repositorio: https://github.com/Enriquepardo/La-alternativa-2.git
