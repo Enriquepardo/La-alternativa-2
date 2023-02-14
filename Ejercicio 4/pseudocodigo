@@ -1,0 +1,17 @@
+
+Inicio
+
+    Declarar una lista vacía llamada "notas"
+    Declarar una variable entera "sumanotas" y establecer su valor en 0
+
+    Introducir los valores de las notas a evaluar
+
+    Definimos la media y calculamos la media de de estas notas
+        Si "media" es menor que 12
+            Imprimir "El alumno debe reorientarse."
+        De lo contrario, si "media" es mayor o igual a 12 y menor que 16
+            Imprimir "Alumno con capacidad."
+        De lo contrario
+            Imprimir "Alumno con talento."
+
+Fin

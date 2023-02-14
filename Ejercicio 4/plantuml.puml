@@ -1,0 +1,16 @@
+
+@startuml calificaiones
+
+    title Ejemplo de diagrama de secuencia para las calificaciones de un alumno
+
+    participant Usuario
+    participant Sistema
+
+    Usuario -> Sistema: Solicitud de notas
+    Sistema -> Usuario: Pedir notas
+    Usuario -> Sistema: Introducir notas
+    Sistema -> Sistema: Calcular media
+    Sistema -> Sistema: Evaluar la nota (Alumno con talento/Con capacidad/Debe reorientarse)    
+    Sistema -> Usuario: Mostrar media y comentario
+
+@enduml
