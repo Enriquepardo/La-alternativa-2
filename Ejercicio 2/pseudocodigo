@@ -1,0 +1,36 @@
+Algoritmo clasificar
+#clasificar a y b con las operaciones suma y multiplicación de ambos números
+
+Variables 
+a,b(T,+,*) → comparable
+
+Precondición 
+    Ninguna
+
+Inicialización
+    clasificación()
+
+Realización
+
+Escribir("Introduzca el primer número:")
+leer(a)
+Escribir("Introduzca el segundo número:")
+leer(b)
+si 
+    a*b <a a*b< b
+entonces 
+    devolver clasificacion(a, <a+b, <b, <a*b)
+
+si 
+    a<b y a*b >a and a*b<b
+entonces
+    devolver clasificacion(a,a*b,a+b,b)
+
+si 
+    a<b y a+b>a y a+b>a y a+b<b
+entonces
+    devolver clasificacion(a,a+b,a*b,b)
+
+sino
+    devolver(a,b,a+b,a*b)
+fin

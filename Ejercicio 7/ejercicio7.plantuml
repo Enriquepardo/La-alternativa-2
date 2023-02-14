@@ -1,0 +1,14 @@
+
+@startuml
+title Calcular precio viaje
+
+participant Usuario
+participant Sistema
+
+Usuario -> Sistema: Introduce el numero de alumnos y el numero de dias
+Sistema -> Sistema: Clasificar el numero de alumnos y en funcion de ello calcular el precio
+Sistema-> Sistema: Calcular el precio comida
+Sistema -> Sistema: Calcular precio transporte
+Sistema -> Sistema: Calculate alojamiento
+Sistema -> Usuario: Mostrar precio total
+@enduml

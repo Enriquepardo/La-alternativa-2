@@ -1,0 +1,33 @@
+Algoritmo calcular el Precio del viaje
+#calcular el precio del viaje escolar
+
+Variables
+    Número de alumnos, días del viaje
+Precondición
+    Ninguna
+Realización
+    Escribir("Introduzca el número de alumnos:")
+    leer(num_alumnos)
+    Escribir("Introduzca el número de días del viaje:")
+    leer(num_dias)
+    comida=3,5*dias
+    Si 
+        num_alumnos <=25
+    entonces
+        transporte=61
+    Sino 
+        transporte=67,30
+    (fin if)
+    Si
+        num_alumnos<30:
+    entonces
+        alojamiento=4,75*dias*num_alumnos
+    Si
+        num_alumnos<=35:
+    entonces
+        alojamiento=4*dias*num_alumnos
+    Sino
+        alojamiento=3,50*dias*num_alumnos
+    
+    devolver
+        precio_total=alojamiento+transporte+comida

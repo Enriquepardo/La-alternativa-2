@@ -1,0 +1,12 @@
+@startuml Ejercicio 2
+:Introduzca dos números;
+if (a*b<a and  a*b<b) then (yes)
+  :a*b<a<a+b<b;
+elseif (a<b and a*b>a and a*b<b) then (yes)
+:a<a*b<a+b<b;
+elseif (a<b and a*b>a and a*b<b) then (yes)
+  :a<a+b<,a*b<b;
+else (sino)
+  :a<b<a+b<a*b;
+endif
+@enduml
